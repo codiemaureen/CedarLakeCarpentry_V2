@@ -4,6 +4,7 @@ import Header from "./component/Header";
 import ServiceContainer from "./component/ServiceContainer";
 import Footer from "./component/Footer";
 import AboutUs from "./component/AboutUs";
+import ContactContainer from "./component/ContactContainer";
 
 
 export default function Home() {
@@ -12,6 +13,7 @@ export default function Home() {
       <Header/>
       <ServiceContainer />
       <AboutUs />
+      <ContactContainer />
       <Footer />
     </div>
   );
