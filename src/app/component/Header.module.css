@@ -6,8 +6,12 @@
  flex-direction: column;
 }
 
+.headerTitle{
+ z-index: 3001;
+}
+
 .headerImg{
- z-index: -1;
+ z-index: 3000;
  position: fixed;
  object-position: center;
  object-fit: cover;
