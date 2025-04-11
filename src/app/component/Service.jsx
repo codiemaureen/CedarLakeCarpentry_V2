@@ -4,7 +4,7 @@ const Service = ({service}) => {
   return (
     <div className={style.idvService}>
       <h3>{service.title}</h3>
-      <img src={service.img} alt={service.title} />
+      <img src={service.imgUrl} alt={service.title} className={style.serviceImg}/>
       <p>{service.description}</p>
     </div>
   )

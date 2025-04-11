@@ -1,8 +1,14 @@
 .serviceContainer{
  margin-top: 25vh;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ width: 100vw;
 }
 
 .serviceWrapper{
   display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
   gap: 1vw;
 }
