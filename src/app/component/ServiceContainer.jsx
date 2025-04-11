@@ -14,10 +14,10 @@ const ServiceContainer = () => {
   }, []);
   return (
     <div className={style.serviceContainer}>
-      <p>Services</p>
-      <div>
+      <h2>Services</h2>
+      <div className={style.serviceWrapper}>
       {services.map((service) => (
-        <div key={service.id}>
+        <div key={service.id} >
           <Service service={service}/>
         </div>
       ))}
