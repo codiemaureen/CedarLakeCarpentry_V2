@@ -19,6 +19,7 @@ body {
 body {
   color: var(--foreground);
   background: var(--background);
+  background-image: url('../../public/pexels-ksw-photographer-2372420-4018952.jpg');
 }
 
 * {
