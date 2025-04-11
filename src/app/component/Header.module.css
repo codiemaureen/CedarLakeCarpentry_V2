@@ -12,7 +12,7 @@
 .headerTitle{
  z-index: 3001;
  position: fixed;
- 
+ color: rgb(24, 3, 3);
 }
 
 .headerImg{
