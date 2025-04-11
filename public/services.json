@@ -3,22 +3,32 @@
   {
    "id": 1,
    "title":"Cabinets",
-   "description": "Hanging Cabinets"
+   "description": "Hanging Cabinets",
+   "imgUrl": "/cabinet.jpg"
   },
   {
    "id": 2,
    "title": "Trim",
-   "description": "Run Base, Crown, & Shoe"
+   "description": "Run Base, Crown, & Shoe",
+   "imgUrl": "/trim.jpg"
   },
   {
    "id": 3,
    "title": "Mantels",
-   "description": "Fireplace Mantels"
+   "description": "Fireplace Mantels",
+   "imgUrl": "fireplace.jpg"
   },
   {
    "id": 4,
    "title": "Coffered Ceilings",
-   "description": "Install Coffered Ceilings"
+   "description": "Install Coffered Ceilings",
+   "imgUrl": "cofferedCeilings.jpg"
+  },
+  {
+   "id": 5,
+   "title": "Stairways",
+   "description": "Install railing",
+   "imgUrl": "/stairway.jpg"
   }
  ]
 }
