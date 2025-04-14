@@ -1,5 +1,5 @@
 .contactContainer{
- height: 70vh;
+ min-height: 70vh;
  display: flex;
  flex-direction: column;
  align-items: center;
@@ -16,4 +16,16 @@
  display: flex;
  flex-direction: column;
  align-self: center;
+}
+
+@media screen and (max-width:900px) {
+ .contactWrapper{
+  flex-direction: column;
+  justify-content: center;
+ }
+ .contactDetails{
+  font-size: 1rem;
+  align-items: center;
+  max-width: 90%;
+ }
 }
