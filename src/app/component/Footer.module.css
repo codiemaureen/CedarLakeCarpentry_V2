@@ -1,5 +1,7 @@
 .footerContainer{
- border: 2px solid black;
+ text-align: center;
+ background-color: white;
+ color: rgb(24, 3, 3);
  position: relative;
  width: 100vw;
  bottom: 0;
