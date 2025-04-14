@@ -1,3 +1,19 @@
 .aboutUsContainer{
- border: 2px solid purple;
+ display: flex;
+ flex-direction: column;
+ justify-content: space-evenly;
+ min-height: 70vh;
+ text-align: center;
+ color: rgb(24, 3, 3);
+ background-color: white;
+ font-size: 2rem;
+}
+
+.aboutHeader{
+ margin-bottom: 5vh;
+}
+.aboutDesc {
+ align-self: center;
+ max-width: 80%;
+ min-height: 30vh;
 }
