@@ -5,7 +5,8 @@ const ContactForm = () => {
     <div className={style.contactFormContainer}>
       <form action="" className={style.ContactForm}>
         <div className={style.inputContainer}>
-          <label htmlFor='email'>Enter your Email:</label>
+          <label 
+          htmlFor='email'>Enter your Email:</label>
           <input type='text' 
           className={style.inputBox}placeholder='Enter your email....'/>
         </div>
