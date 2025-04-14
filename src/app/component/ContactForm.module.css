@@ -1,3 +1,24 @@
 .contactFormContainer{
- border: 2px solid blue;
+ display: flex;
+ flex-direction: column;
+ color: rgb(24, 3, 3);
+ min-height: 60vh;
+ aspect-ratio: 14/16;
+ background-color: white;
+ font-size: 1.5rem;
+}
+
+.inputContainer{
+ display: flex;
+ flex-direction: column;
+ max-width: 80%;
+ align-items: center;
+ margin: 10%;
+}
+
+.inputBox {
+ height: 10vh;
+ width: 90%;
+ background-color: rgba(66, 39, 6, 0.804);
+ color: white;
 }
