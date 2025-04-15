@@ -4,7 +4,7 @@ import ContactForm from './ContactForm';
 const ContactContainer = () => {
   return (
     <div className={style.contactContainer}>
-      <p>Contact Container</p>
+      <h2>Contact Container</h2>
     <div className={style.contactWrapper}>
         <ContactForm />
         <div className={style.contactDetails}>
