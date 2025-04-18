@@ -1,0 +1,26 @@
+.navBarContainer{
+ z-index: 5000;
+ position: fixed;
+ display: flex;
+ flex-wrap: wrap;
+ width: 100%;
+}
+
+.navBar {
+ display: flex;
+ color: brown;
+ background-color: wheat;
+ font-weight: 700;
+ font-size: 2rem;
+ flex: 1 1 auto;
+ justify-content: center;
+ align-content: space-around;
+ list-style-type: none;
+ text-transform: capitalize;
+}
+
+@media screen and (max-width: 550px) {
+ .navBar{
+  font-size: 1rem;
+ }
+}
