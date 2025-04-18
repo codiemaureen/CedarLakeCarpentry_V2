@@ -13,7 +13,7 @@ const ServiceContainer = () => {
     .catch((error) => console.error("Error fetching services:", error));
   }, []);
   return (
-    <div className={style.serviceContainer}>
+    <div id='serviceContainer' className={style.serviceContainer}>
       <h2>Services</h2>
       <div className={style.serviceWrapper}>
       {services.map((service) => (

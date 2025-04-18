@@ -11,12 +11,11 @@
 
 .headerTitle{
  z-index: 3001;
- position: fixed;
+ position: absolute;
  color: rgb(24, 3, 3);
 }
 
 .headerImg{
- position: fixed;
  z-index: 3000;
  object-position: center 55%;
  object-fit: cover;
