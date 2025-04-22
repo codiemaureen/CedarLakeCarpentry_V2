@@ -8,8 +8,8 @@
 
 .navBar {
  display: flex;
- color: brown;
- background-color: wheat;
+ color: wheat;
+ background-color: rgb(48, 28, 2);
  font-weight: 700;
  font-size: 2rem;
  flex: 1 1 auto;
