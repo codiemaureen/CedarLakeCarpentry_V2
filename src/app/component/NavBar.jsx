@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import style from '../component/NavBar.module.css';
 
+
 const NavBar = () => {
     let navItems = [
     {id: 0, title:'home', link: ''}, 
