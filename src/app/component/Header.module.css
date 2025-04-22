@@ -12,7 +12,11 @@
 .headerTitle{
  z-index: 3001;
  position: absolute;
- color: rgb(24, 3, 3);
+ color: rgb(35, 24, 1);
+ text-shadow: 2px 2px 2px wheat;
+ font-size: 3.5vw;
+ letter-spacing: 2vw;
+ white-space: no-wrap;
 }
 
 .headerImg{
@@ -22,4 +26,13 @@
  width: 100vw;
  height: 25vh;
  top: 0;
+}
+
+@media screen and (max-width: 400px){
+ .headerTitle{
+  font-size: 10vw;
+  text-align: center;
+  color: wheat;
+  text-shadow: 2px 2px 2px rgb(35, 24, 1);
+ }
 }
