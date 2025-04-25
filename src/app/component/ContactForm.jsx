@@ -3,7 +3,7 @@ import style from '../component/ContactForm.module.css';
 const ContactForm = () => {
   return (
     <div className={style.contactFormContainer}>
-      <form action="" className={style.ContactForm}>
+      <form action="" className={style.contactForm}>
         <div className={style.inputContainer}>
           <label 
           htmlFor='email'>Enter your Email:</label>
@@ -18,7 +18,7 @@ const ContactForm = () => {
         <div className={style.inputContainer}>
           <label htmlFor='message'>Enter Message:</label>
           <textarea 
-          className={style.inputBox}placeholder='enter your message'></textarea>
+          className={style.messageBox}placeholder='enter your message'></textarea>
         </div>
       </form>
     </div>

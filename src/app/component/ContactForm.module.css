@@ -1,25 +1,32 @@
 .contactFormContainer{
  display: flex;
  flex-direction: column;
- justify-content: center;
  color: rgb(24, 3, 3);
- height: 60vh;
- aspect-ratio: 14/16;
+ min-height: 60vh;
+ aspect-ratio: 16/16;
  background-color: white;
  font-size: 1.5rem;
+ text-align: center;
 }
 
-.inputContainer{
+.contactForm{
+ width: 100%;
+ height: 100%;
  display: flex;
  flex-direction: column;
- max-width: 80%;
- align-items: center;
- margin: 1% 10%;
+ justify-content: space-evenly;
 }
 
-.inputBox {
- height: 10vh;
+.inputBox{
  width: 90%;
+ height: 5vh;
  background-color: rgba(66, 39, 6, 0.804);
  color: white;
+}
+
+.messageBox{
+  width: 90%;
+  max-height: 10rem;
+ background-color: rgba(66, 39, 6, 0.804);
+  color: white;
 }
