@@ -6,7 +6,7 @@
  text-align: center;
  color: rgb(24, 3, 3);
  background-color: white;
- font-size: 2rem;
+ font-size: 2vw;
 }
 
 .aboutHeader{
@@ -16,5 +16,12 @@
 .aboutDesc {
  align-self: center;
  max-width: 80%;
- min-height: 30vh;
+ min-height: 30vh;  padding-bottom: 2vh;
+}
+
+@media screen and (max-width: 980px){
+ .aboutUsContainer{
+  font-size: 5vw;
+
+ }
 }
