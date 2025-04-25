@@ -13,12 +13,12 @@ const ContactForm = () => {
         <div className={style.inputContainer}>
           <label htmlFor='subject'>Enter your Subject:</label>
           <input type='text'
-          className={style.inputBox} placeholder='Enter Your subject'/>
+          className={style.inputBox} placeholder='Enter your subject'/>
         </div>
         <div className={style.inputContainer}>
           <label htmlFor='message'>Enter Message:</label>
           <textarea 
-          className={style.messageBox}placeholder='enter your message'></textarea>
+          className={style.messageBox}placeholder='Enter your message'></textarea>
         </div>
       </form>
     </div>
