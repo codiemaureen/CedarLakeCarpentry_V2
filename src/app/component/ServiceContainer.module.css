@@ -4,6 +4,7 @@
  align-items: center;
  width: 100vw;
  font-size: 2rem;
+ margin-bottom: 5vh;
 }
 
 .serviceWrapper{
@@ -11,4 +12,10 @@
   justify-content: center;
   flex-wrap: wrap;
   gap: 1vw;
+}
+
+.servicesDesc{
+  max-width: 80vw;
+  margin: 5vh 0;
+  font-size: 3vh;
 }
