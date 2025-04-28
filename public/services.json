@@ -2,32 +2,32 @@
  "services": [
   {
    "id": 1,
-   "title":"Cabinets",
-   "description": "Hanging Cabinets",
+   "title":"Custom Cabinetry & Cabinet Installation",
+   "description": "Transform your space with expertly crafted custom cabinetry and precise cabinet installation. Whether it’s a kitchen, bathroom, or custom-built solution, we design and install cabinets that elevate luxury homes with timeless craftsmanship and functionality.",
    "imgUrl": "/cabinet.jpg"
   },
   {
    "id": 2,
-   "title": "Trim",
-   "description": "Run Base, Crown, & Shoe",
+   "title": "Trim Installation & Base Molding",
+   "description": "Perfectly installed trim and base molding add the finishing touches that define a luxury home. Our team ensures clean lines and seamless finishes, enhancing the architectural beauty of each room with precision and care.",
    "imgUrl": "/trim.jpg"
   },
   {
    "id": 3,
-   "title": "Mantles",
-   "description": "Fireplace Mantles",
+   "title": "Fireplace Mantles",
+   "description": "A custom fireplace mantle serves as the centerpiece of any elegant living space. We design and install mantles that combine traditional craftsmanship with modern luxury, creating a striking and sophisticated focal point.",
    "imgUrl": "fireplace.jpg"
   },
   {
    "id": 4,
    "title": "Coffered Ceilings",
-   "description": "Install Coffered Ceilings",
+   "description": "Add depth, elegance, and architectural distinction to your home with handcrafted coffered ceilings. Our detailed designs and flawless execution bring an unmatched sense of grandeur and refinement to any room.",
    "imgUrl": "cofferedCeilings.jpg"
   },
   {
    "id": 5,
-   "title": "Stairways",
-   "description": "Install railing",
+   "title": "Staircase Railings",
+   "description": "Our custom staircase railings are built to be both stunning and structurally sound. Whether sleek and modern or ornate and classic, we create railings that elevate your staircase into a statement of luxury and design excellence.",
    "imgUrl": "/stairway.jpg"
   }
  ]
