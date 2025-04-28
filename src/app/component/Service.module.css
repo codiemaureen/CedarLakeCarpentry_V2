@@ -13,6 +13,8 @@
 }
 .serviceTitle{
  font-size: 4vh;
+ padding: 0;
+ margin: 0;
 }
 
 .serviceImg{
@@ -26,19 +28,21 @@
  justify-self: center;
  white-space: wrap;
  width: 90%;
+ color: black;
 
 }
 
 @media screen and (max-width: 1080px) {
  .idvService {
-  width: 80vw;
+  width: 90vw;
   max-height: none;
  }
  .serviceTitle{
-  font-size: 4vw;
+  white-space: wrap;
+  font-size: 5vw;
  }
-  .serviceImg {
+  /* .serviceImg {
    width: 100%;
    max-height: 60%;
-  }
+  } */
 }
