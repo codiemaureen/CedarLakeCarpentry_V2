@@ -22,8 +22,8 @@ A professional online platform for Cedar Lake Carpentry to highlight their custo
 
 Planned features and future direction of the project.
 
--image gallery
--google map
+- Image gallery
+- Google map
 
 ## Changelog
 
