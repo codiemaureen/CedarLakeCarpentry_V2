@@ -1,26 +1,69 @@
-.navBarContainer{
- z-index: 5000;
- position: fixed;
- display: flex;
- flex-wrap: wrap;
+.navOuter {
  width: 100%;
+ background-color: rgba(216, 208, 192, 0.97);
+ border-top: 1px solid #c8c0b0;
+ border-bottom: 1px solid #bfb6a5;
+ box-shadow: 0 2px 6px rgba(0, 0, 0, 0.18);
 }
 
 .navBar {
  display: flex;
- color: wheat;
- background-color: rgb(48, 28, 2);
- font-weight: 700;
- font-size: 2rem;
- flex: 1 1 auto;
  justify-content: center;
- align-content: space-around;
- list-style-type: none;
- text-transform: capitalize;
+ align-items: center;
+ list-style: none;
+ margin: 0 auto;
+ padding: 0;
+ max-width: 1200px;
 }
 
-@media screen and (max-width: 550px) {
- .navBar{
-  font-size: 1rem;
+.navBar li {
+ position: relative;
+ min-width: 140px;
+ text-align: center;
+}
+
+.navBar li a {
+ display: block;
+ padding: 1rem 2rem;
+ text-decoration: none;
+ color: #5f4d33;
+ font-size: 0.95rem;
+ font-weight: 500;
+ letter-spacing: 0.06em;
+ text-transform: uppercase;
+ transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.navBar li:not(:last-child)::after {
+ content: "";
+ position: absolute;
+ top: 20%;
+ right: 0;
+ width: 1px;
+ height: 60%;
+ background-color: #bfb6a5;
+}
+
+.navBar li a:hover {
+ background-color: #cec5b4;
+ color: #3b2f1e;
+}
+
+@media (max-width: 768px) {
+ .navBar {
+  flex-wrap: wrap;
+ }
+
+ .navBar li {
+  min-width: auto;
+ }
+
+ .navBar li a {
+  padding: 0.85rem 1.25rem;
+  font-size: 0.85rem;
+ }
+
+ .navBar li:not(:last-child)::after {
+  display: none;
  }
 }

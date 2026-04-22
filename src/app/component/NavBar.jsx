@@ -1,23 +1,17 @@
-import Link from 'next/link';
-import style from '../component/NavBar.module.css';
+import styles from '../component/Navbar.module.css';
 
-
-const NavBar = () => {
-    let navItems = [
-    {id: 0, title:'home', link: ''}, 
-    {id: 1, title:'about', link:"#aboutUsContainer" } , 
-    {id: 2, title: 'services', link: "#servicesContainer" }, ,
-    {id: 3, title: 'Get a Quote', link: '' }
-  ]
+const Navbar = () => {
   return (
-    <nav className={style.navBarContainer}>
-      {navItems.map((items) => (
-        <ul key={items.id} className={style.navBar}>
-          <li  className={style.navItem}><Link href={items.link}>{items.title}</Link></li>
-        </ul>
-      ))}
+    <nav className={styles.navOuter}>
+      <ul className={styles.navBar}>
+        <li><a href="/">Home</a></li>
+        <li><a href="/about">About</a></li>
+        <li><a href="/services">Services</a></li>
+        <li><a href="/gallery">Gallery</a></li>
+        <li><a href="/contact">Contact Us</a></li>
+      </ul>
     </nav>
-  )
-}
+  );
+};
 
-export default NavBar
+export default Navbar;
