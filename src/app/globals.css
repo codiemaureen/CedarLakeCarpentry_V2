@@ -6,7 +6,7 @@
   --wood-800: #4a2c17;
   --wood-700: #6a4121;
 
-  --gold-500: #c8a96b;
+  --gold-500: #b89563;
   --gold-400: #dbc08e;
 
   --cream-100: #f5efe3;
@@ -29,7 +29,7 @@
     --gold-400: #dbc08e;
 
     --cream-100: #f5efe3;
-    --cream-200: #e8dcc5;
+    --cream-200: #cec5b4;
 
     --charcoal-900: #161616;
     --charcoal-700: #2c2c2c;
@@ -42,19 +42,20 @@ body {
   overflow-x: hidden;
 }
 h2{
-  color: wheat;
+  color: var(--wood-900);
 }
 
 body {
-  background: var(--background);
-  background-image: url('../../public/pexels-ksw-photographer-2372420-4018952.jpg');
+  background: var(--cream-200);
   background-attachment: fixed;
+  color: var(--wood-900);
 }
 
 * {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+  color: var(--wood-900);
 }
 
 a {
