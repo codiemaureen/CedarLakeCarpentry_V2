@@ -1,12 +1,38 @@
 :root {
-  --background: brown;
-  --foreground: #171717;
+  --forest-900: #1f2a22;
+  --forest-700: #314236;
+
+  --wood-900: #2f1c0f;
+  --wood-800: #4a2c17;
+  --wood-700: #6a4121;
+
+  --gold-500: #c8a96b;
+  --gold-400: #dbc08e;
+
+  --cream-100: #f5efe3;
+  --cream-200: #e8dcc5;
+
+  --charcoal-900: #161616;
+  --charcoal-700: #2c2c2c;
 }
 
 @media (prefers-color-scheme: dark) {
-  :root {
-    --background: brown;
-    --foreground: #ededed;
+:root {
+    --forest-900: #1f2a22;
+    --forest-700: #314236;
+
+    --wood-900: #2f1c0f;
+    --wood-800: #4a2c17;
+    --wood-700: #6a4121;
+
+    --gold-500: #c8a96b;
+    --gold-400: #dbc08e;
+
+    --cream-100: #f5efe3;
+    --cream-200: #e8dcc5;
+
+    --charcoal-900: #161616;
+    --charcoal-700: #2c2c2c;
   }
 }
 
