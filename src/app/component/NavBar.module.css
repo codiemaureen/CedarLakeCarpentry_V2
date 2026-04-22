@@ -1,9 +1,12 @@
 .navOuter {
+ position: relative;
+ top: 0;
+ left: 0;
  width: 100%;
- background-color: rgba(216, 208, 192, 0.97);
- border-top: 1px solid #c8c0b0;
- border-bottom: 1px solid #bfb6a5;
- box-shadow: 0 2px 6px rgba(0, 0, 0, 0.18);
+ z-index: 5000;
+ background: rgba(255, 235, 210, 0.18);
+ backdrop-filter: blur(6px);
+ border-bottom: 1px solid rgba(255, 235, 210, 0.18);
 }
 
 .NavBar {
@@ -26,7 +29,7 @@
  display: block;
  padding: 1rem 2rem;
  text-decoration: none;
- color: #5f4d33;
+ color: #c6c1ba;
  font-size: 0.95rem;
  font-weight: 500;
  letter-spacing: 0.06em;
@@ -47,6 +50,15 @@
 .NavBar li a:hover {
  background-color: #cec5b4;
  color: #3b2f1e;
+}
+
+@media (max-width: 900px) {
+  .navBar {
+    font-size: 0.85rem;
+    gap: 0.5rem;
+    padding: 0.75rem 0.5rem;
+    flex-wrap: wrap;
+  }
 }
 
 @media (max-width: 768px) {

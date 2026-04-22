@@ -1,14 +1,24 @@
 .headerContainer {
  position: relative;
  width: 100%;
- height: clamp(260px, 35vw, 480px);
+ height: 80vh;
  overflow: hidden;
- background: #111;
 }
 
 .headerImg {
  object-fit: cover;
- object-position: center 45%;
+ object-position: center 0%;
+ z-index: 0;
+ /* opacity: 0.8; */
+ /* filter: blur(1px); */
+}
+.overlay {
+ position: absolute;
+ inset: 0;
+ z-index: 1;
+ background: linear-gradient(to bottom,
+   rgba(61, 47, 33, 0.523),
+   rgba(25, 20, 15, 0.4));
 }
 
 .navWrapper {
