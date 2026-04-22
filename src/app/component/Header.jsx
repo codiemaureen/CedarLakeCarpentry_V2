@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import style from '../component/Header.module.css';
-import Navbar from './Navbar';
+import NavBar from './NavBar';
 
 const Header = () => {
   return (
@@ -14,7 +14,7 @@ const Header = () => {
       />
 
       <div className={style.navWrapper}>
-        <Navbar />
+        <NavBar />
       </div>
     </header>
   );

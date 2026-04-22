@@ -1,9 +1,9 @@
-import styles from '../component/Navbar.module.css';
+import styles from '../component/NavBar.module.css';
 
-const Navbar = () => {
+const NavBar = () => {
   return (
     <nav className={styles.navOuter}>
-      <ul className={styles.navBar}>
+      <ul className={styles.NavBar}>
         <li><a href="/">Home</a></li>
         <li><a href="/about">About</a></li>
         <li><a href="/services">Services</a></li>
@@ -14,4 +14,4 @@ const Navbar = () => {
   );
 };
 
-export default Navbar;
+export default NavBar;
