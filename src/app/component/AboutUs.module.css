@@ -10,7 +10,7 @@
 }
 
 .aboutHeader{
- margin-bottom: 5vh;
+ margin: 3.5rem;
  color: rgb(24, 3, 3);
 }
 .aboutDesc {
@@ -18,6 +18,31 @@
  align-self: center;
  max-width: 80%;
  min-height: 30vh;  padding-bottom: 2vh;
+}
+.ctaGroup {
+ display: flex;
+ gap: 1rem;
+ margin: 2rem;
+ flex-wrap: wrap;
+ justify-content: center;
+}
+
+.ctaBtnPrimary {
+ background-color: #b89563;
+ color: #1f1710;
+ padding: 0.9rem 1.8rem;
+ border-radius: 999px;
+ font-weight: 700;
+ text-decoration: none;
+}
+
+.ctaBtnSecondary {
+ border: 2px solid #b89563;
+ color: #b89563;
+ padding: 0.9rem 1.8rem;
+ border-radius: 999px;
+ font-weight: 700;
+ text-decoration: none;
 }
 
 @media screen and (max-width: 980px){
