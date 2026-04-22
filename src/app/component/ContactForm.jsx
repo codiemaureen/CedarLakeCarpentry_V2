@@ -2,7 +2,7 @@ import style from '../component/ContactForm.module.css';
 
 const ContactForm = () => {
   return (
-    <div className={style.contactFormContainer}>
+    <div className={style.contactFormContainer} id='contactus'>
       <form action="" className={style.contactForm}>
         <div className={style.inputContainer}>
           <label 
