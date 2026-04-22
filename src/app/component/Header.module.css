@@ -9,8 +9,6 @@
  object-fit: cover;
  object-position: center 0%;
  z-index: 0;
- /* opacity: 0.8; */
- /* filter: blur(1px); */
 }
 .overlay {
  position: absolute;
