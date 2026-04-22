@@ -1,32 +1,96 @@
-.contactFormContainer{
- display: flex;
- flex-direction: column;
- color: rgb(24, 3, 3);
- height: 60vh;
- aspect-ratio: 16/16;
- background-color: white;
- font-size: 3vh;
- text-align: center;
+.contactSection {
+  background: none;
+  padding: 3rem 1.5rem;
 }
 
-.contactForm{
- width: 100%;
- height: 100%;
- display: flex;
- flex-direction: column;
- justify-content: space-evenly;
+.contactCard {
+  max-width: 1200px;
+  margin: 0 auto;
+  background: #f7f6f4;
+  border: 1px solid #d9d4cc;
+  border-radius: 2rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+  padding: 2.5rem;
 }
 
-.inputBox{
- width: 90%;
- height: 10vh;
- background-color: rgba(66, 39, 6, 0.804);
- color: white;
+.heading {
+  font-size: clamp(1.75rem, 2vw, 2.2rem);
+  font-weight: 700;
+  color: #171717;
+  margin: 0 0 2rem 0;
 }
 
-.messageBox{
- width: 90%;
- height: 15vh;
- background-color: rgba(66, 39, 6, 0.804);
-  color: white;
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.input,
+.textarea {
+  width: 100%;
+  border: 1px solid #cfc8be;
+  background: #f9f8f6;
+  border-radius: 1rem;
+  padding: 1rem 1.1rem;
+  font-size: 1rem;
+  color: #222;
+  outline: none;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+  box-sizing: border-box;
+}
+
+.input {
+  height: 3.2rem;
+}
+
+.textarea {
+  min-height: 140px;
+  resize: vertical;
+  padding-top: 1rem;
+}
+
+.input::placeholder,
+.textarea::placeholder {
+  color: #9a9389;
+}
+
+.input:focus,
+.textarea:focus {
+  border-color: #b7ae9f;
+  box-shadow: 0 0 0 3px rgba(183, 174, 159, 0.15);
+}
+
+.button {
+  align-self: flex-start;
+  margin-top: 0.5rem;
+  background: #171717;
+  color: #fff;
+  border: none;
+  border-radius: 999px;
+  padding: 0.95rem 1.5rem;
+  font-size: 0.95rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: transform 0.2s ease, opacity 0.2s ease;
+}
+
+.button:hover {
+  transform: translateY(-1px);
+  opacity: 0.95;
+}
+
+@media (max-width: 768px) {
+  .contactSection {
+    padding: 2rem 1rem;
+  }
+
+  .contactCard {
+    padding: 1.5rem;
+    border-radius: 1.5rem;
+  }
+
+  .heading {
+    margin-bottom: 1.5rem;
+  }
 }

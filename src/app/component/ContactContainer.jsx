@@ -1,5 +1,6 @@
 import style from '../component/ContactContainer.module.css';
 import ContactForm from './ContactForm';
+import Image from 'next/image';
 
 const ContactContainer = () => {
   return (
@@ -8,6 +9,8 @@ const ContactContainer = () => {
     <div className={style.contactWrapper}>
         <ContactForm />
         <div className={style.contactDetails}>
+          <h3>Proudly Serving Metro Detroit!</h3>
+          <Image src='/map.png' alt="map" className={style.map} width={400} height={400}/>
           <a href=''>586.322.5234</a>
           <a href=''>Cedarlakecarpentry@gmail.com</a>
         </div>

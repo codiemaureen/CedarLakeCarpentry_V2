@@ -1,28 +1,34 @@
-import style from '../component/ContactForm.module.css';
+import styles from "./ContactForm.module.css";
 
-const ContactForm = () => {
+export default function ContactForm() {
   return (
-    <div className={style.contactFormContainer} id='contactus'>
-      <form action="" className={style.contactForm}>
-        <div className={style.inputContainer}>
-          <label 
-          htmlFor='email'>Enter your Email:</label>
-          <input type='text' 
-          className={style.inputBox}placeholder='Enter your email....'/>
-        </div>
-        <div className={style.inputContainer}>
-          <label htmlFor='subject'>Enter your Subject:</label>
-          <input type='text'
-          className={style.inputBox} placeholder='Enter your subject'/>
-        </div>
-        <div className={style.inputContainer}>
-          <label htmlFor='message'>Enter Message:</label>
-          <textarea 
-          className={style.messageBox}placeholder='Enter your message'></textarea>
-        </div>
-      </form>
-    </div>
-  )
-}
+    <section className={styles.contactSection} id="contactus">
+      <div className={styles.contactCard}>
+        <h2 className={styles.heading}>Send us a message</h2>
 
-export default ContactForm
+        <form className={styles.form}>
+          <input
+            type="text"
+            placeholder="Your name"
+            className={styles.input}
+          />
+
+          <input
+            type="text"
+            placeholder="Phone or email"
+            className={styles.input}
+          />
+
+          <textarea
+            placeholder="Tell us what furniture you’re looking for"
+            className={styles.textarea}
+          />
+
+          <button type="submit" className={styles.button}>
+            Submit Inquiry
+          </button>
+        </form>
+      </div>
+    </section>
+  );
+}
