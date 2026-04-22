@@ -78,7 +78,6 @@
 .formPanel {
  background: #f7f4ef;
  border-radius: 28px;
- padding: 2rem;
  box-shadow: 0 20px 50px rgba(31, 23, 16, 0.12);
  border: 1px solid rgba(72, 55, 35, 0.08);
 }
@@ -87,7 +86,6 @@
  border-radius: 22px;
  overflow: hidden;
  opacity: 0.92;
- box-shadow: 0 10px 30px rgba(31, 23, 16, 0.08);
 }
 
 .map {
