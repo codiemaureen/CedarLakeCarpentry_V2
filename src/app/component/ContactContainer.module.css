@@ -33,14 +33,48 @@
  flex-direction: column;
  align-self: center;
  text-align: center;
- text-transform: uppercase;
 }
 
 .map{
- margin: auto;
+ margin: 2rem auto 0;
  width: 90%;
  justify-self: center;
  border-radius: 1rem;
+}
+
+.ctaGroup {
+ display: flex;
+ gap: 1rem;
+ margin-top: 2rem;
+ flex-wrap: wrap;
+}
+
+.ctaBtnPrimary,
+.ctaBtnSecondary {
+ display: inline-block;
+ padding: 0.9rem 1.8rem;
+ border-radius: 999px;
+ font-weight: 700;
+ text-decoration: none;
+ transition: all 0.25s ease;
+}
+
+.ctaBtnPrimary {
+ margin-top: 2rem;
+ background-color: #b89563;
+ color: #1f1710;
+}
+
+.ctaBtnPrimary:hover {
+ transform: translateY(-2px);
+}
+
+
+.contactNote {
+ margin-top: 1rem;
+ color: #1f1710;
+ font-weight: 700;
+ text-transform: uppercase;
 }
 
 @media screen and (max-width:900px) {

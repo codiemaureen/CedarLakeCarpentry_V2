@@ -11,9 +11,16 @@ const ContactContainer = () => {
         <div className={style.contactDetails}>
           <h3>Proudly Serving Metro Detroit!</h3>
           <Image src='/map.png' alt="map" className={style.map} width={400} height={400}/>
-          <a href="tel:15863225234">586.322.5234</a>
-          <a href="mailto:Cedarlakecarpentry@gmail.com" >Cedarlakecarpentry@gmail.com</a>
-        </div>
+        
+
+          <a href="tel:15863225234" className={style.ctaBtnPrimary}>
+            Call Now
+          </a>
+
+
+        <p className={style.contactNote}>
+          Cedarlakecarpentry@gmail.com
+        </p></div>
     </div>
     </div>
   )
