@@ -20,8 +20,8 @@ const AboutUs = () => {
   <a href="tel:15863225234" className={style.ctaBtnPrimary}>
     Call Now
   </a>
-  <a href="mailto:Cedarlakecarpentry@gmail.com" className={style.ctaBtnSecondary}>
-    Work With Us
+  <a href="sms:15863225234" className={style.ctaBtnSecondary}>
+    Text Us
   </a>
 </div>
     </div>
