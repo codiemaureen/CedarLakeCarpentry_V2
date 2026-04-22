@@ -20,7 +20,7 @@ export default function ContactForm() {
           />
 
           <textarea
-            placeholder="Tell us what furniture you’re looking for"
+            placeholder="Let us know how we can help"
             className={styles.textarea}
           />
 
