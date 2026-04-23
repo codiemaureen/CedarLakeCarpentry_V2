@@ -16,7 +16,7 @@ const Hero = () => {
 
       <div className={styles.buttons}>
         <a href="#contactus" className={styles.primaryBtn}>
-          Request a Quote
+          Work With Us
         </a>
         <a href="#services" className={styles.secondaryBtn}>
           View Services
