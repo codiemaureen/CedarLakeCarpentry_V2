@@ -1,8 +1,14 @@
 .footerContainer{
+ display: flex;
+ justify-content: space-evenly;
  text-align: center;
  background-color: white;
  color: rgb(24, 3, 3);
  position: relative;
  width: 100vw;
  bottom: 0;
+}
+
+.footerContainer > * {
+ padding: 2rem;
 }
