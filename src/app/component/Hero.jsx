@@ -25,14 +25,14 @@ const Hero = () => {
 
         <div className={styles.shortLine} />
       </div>
-
+      <p className={styles.kicker}>LUXURY FINISH CARPENTRY</p>
       <h1 className={styles.title}>
-        High-End Finish Carpentry for Metro Detroit Builders & Luxury Homes
+        Precision Finish Carpentry for Luxury Home Builders
       </h1>
 
       <p className={styles.subtitle}>
-        Custom trim, detailed millwork, cabinet installation, mantels, and
-        refined interior finishes built with precision.
+        Trusted by leading Metro Detroit builders for reliable crews,<br /> 
+        clean execution and consistent on-time delivery.
       </p>
 
       <div className={styles.buttons}>
