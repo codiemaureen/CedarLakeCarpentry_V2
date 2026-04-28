@@ -9,20 +9,13 @@ export default function AboutSection() {
         <div className={styles.header}>
           <div className={styles.divider}>
             <span></span>
-              <span className={styles.tree}>
-                <svg viewBox="0 0 24 24" aria-hidden="true">
-                  <path
-                    d="M12 2
-                      L14.5 6.5 H13
-                      L16.5 11 H14
-                      L18.5 16 H5.5
-                      L10 11 H8
-                      L11.5 6.5 H9.5
-                      Z"
-                    fill="#b89563"
-                  />
-                </svg>
-              </span>
+            <Image
+              src="/tree-line.png"
+              alt=""
+              width={210}
+              height={110}
+              priority
+            />
             <span></span>
           </div>
 
