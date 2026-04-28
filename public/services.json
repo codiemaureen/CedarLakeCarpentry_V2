@@ -1,7 +1,7 @@
 {
   "services": [
     {
-      "id": 6,
+      "id": 0,
       "title": "Interior & Exterior Doors",
       "eyebrow": "Precision fit. Clean finish.",
       "description": "Expert installation of interior and exterior doors with precise alignment, smooth operation, and flawless finish. From standard installs to custom door packages, we ensure every detail meets the expectations of high-end home builders.",
@@ -41,6 +41,13 @@
       "eyebrow": "Structure meets polish",
       "description": "Railings and stair finishes that complete transition spaces with craftsmanship and precision.",
       "image": "/stairway.jpg"
+    },
+    {
+      "id": 6,
+      "title": "Custom Shelving & Built-Ins",
+      "eyebrow": "Functional design. Clean execution.",
+      "description": "Custom shelving and built-ins designed for seamless integration into luxury home layouts. From feature walls to storage solutions, we deliver precise installation and clean finishes that align with builder standards.",
+      "image": "/customShelving.jpg"
     }
   ]
 }
