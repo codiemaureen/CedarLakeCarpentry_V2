@@ -1,55 +1,55 @@
 .navOuter {
- position: relative;
- top: 0;
- left: 0;
- width: 100%;
- z-index: 5000;
- background: rgba(255, 235, 210, 0.18);
- backdrop-filter: blur(6px);
- border-bottom: 1px solid rgba(255, 235, 210, 0.18);
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 5000;
+  background: rgba(255, 235, 210, 0.18);
+  backdrop-filter: blur(6px);
+  border-bottom: 1px solid rgba(255, 235, 210, 0.18);
 }
 
 .NavBar {
- display: flex;
- justify-content: center;
- align-items: center;
- list-style: none;
- margin: 0 auto;
- padding: 0;
- max-width: 1200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  margin: 0 auto;
+  padding: 0;
+  max-width: 1200px;
 }
 
 .NavBar li {
- position: relative;
- min-width: 140px;
- text-align: center;
+  position: relative;
+  min-width: 140px;
+  text-align: center;
 }
 
 .NavBar li a {
- display: block;
- padding: 1rem 2rem;
- text-decoration: none;
- color: #c6c1ba;
- font-size: 0.95rem;
- font-weight: 500;
- letter-spacing: 0.06em;
- text-transform: uppercase;
- transition: background-color 0.2s ease, color 0.2s ease;
+  display: block;
+  padding: 1rem 2rem;
+  text-decoration: none;
+  color: #c6c1ba;
+  font-size: 0.95rem;
+  font-weight: 500;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  transition: background-color 0.2s ease, color 0.2s ease;
 }
 
 .NavBar li:not(:last-child)::after {
- content: "";
- position: absolute;
- top: 20%;
- right: 0;
- width: 1px;
- height: 60%;
- background-color: #bfb6a5;
+  content: "";
+  position: absolute;
+  top: 20%;
+  right: 0;
+  width: 1px;
+  height: 60%;
+  background-color: #bfb6a5;
 }
 
 .NavBar li a:hover {
- background-color: #cec5b4;
- color: #3b2f1e;
+  background-color: #cec5b4;
+  color: #3b2f1e;
 }
 
 @media (max-width: 900px) {
@@ -62,20 +62,20 @@
 }
 
 @media (max-width: 768px) {
- .NavBar {
-  flex-wrap: wrap;
- }
+  .NavBar {
+    flex-wrap: wrap;
+  }
 
- .NavBar li {
-  min-width: auto;
- }
+  .NavBar li {
+    min-width: auto;
+  }
 
- .NavBar li a {
-  padding: 0.85rem 1.25rem;
-  font-size: 0.85rem;
- }
+  .NavBar li a {
+    padding: 0.85rem 1.25rem;
+    font-size: 0.85rem;
+  }
 
- .NavBar li:not(:last-child)::after {
-  display: none;
- }
+  .NavBar li:not(:last-child)::after {
+    display: none;
+  }
 }
