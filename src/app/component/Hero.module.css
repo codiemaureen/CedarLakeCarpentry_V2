@@ -1,127 +1,168 @@
 .heroContainer {
   position: relative;
   z-index: 2;
-  max-width: 720px;
-  padding: 0 5rem;
-  color: var(--gold-500);
+  width: min(720px, 48vw);
+  padding-left: clamp(2rem, 5vw, 5rem);
+  padding-bottom: 4rem;
 }
 
-.kicker {
-  font-size: 0.85rem;
-  letter-spacing: 0.22em;
+.brandBlock {
+  width: fit-content;
+  margin-bottom: 2rem;
+}
+
+.treeMark {
+  display: flex;
+  justify-content: center;
+  color: #d9b98c;
+}
+
+.treeMark svg {
+  width: 82px;
+  height: auto;
+  color: rgb(217, 185, 140);
+  filter: drop-shadow(0 2px 8px rgba(0, 0, 0, 0.55));
+}
+
+.brandRow {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.brandRow span {
+  width: 56px;
+  height: 1px;
+  background: rgba(184, 149, 99, 0.75);
+}
+
+.brandRow p {
+  margin: 0;
+  color: #d6c29a;
+  font-size: 0.9rem;
+  letter-spacing: 0.38em;
   text-transform: uppercase;
-  color: #d8c8ab;
-  margin-bottom: 1rem;
   font-weight: 700;
+  white-space: nowrap;
+}
+
+.shortLine {
+  width: 64px;
+  height: 2px;
+  background: #b89563;
+  margin: 0.9rem auto 0;
 }
 
 .title {
   margin: 0;
-  color: var(--gold-500);
-  font-size: clamp(2.8rem, 5vw, 5rem);
-  line-height: 0.98;
-  letter-spacing: -0.04em;
-  text-shadow: 0 4px 18px rgba(0, 0, 0, 0.55);
+  color: #cdbb83;
+  font-size: clamp(3.35rem, 5.4vw, 6.25rem);
+  line-height: 0.96;
+  letter-spacing: -0.055em;
+  max-width: 720px;
+  text-shadow: 0 5px 24px rgba(0, 0, 0, 0.65);
 }
 
 .subtitle {
-  max-width: 520px;
-  margin: 1.5rem 0 0;
-  color: var(--cream-200);
-  font-size: clamp(1rem, 1.4vw, 1.25rem);
-  line-height: 1.55;
-  text-shadow: 0 3px 14px rgba(0, 0, 0, 0.6);
+  max-width: 620px;
+  margin: 2rem 0 0;
+  color: #f3eadb;
+  font-size: clamp(1rem, 1.15vw, 1.25rem);
+  line-height: 1.65;
+  text-shadow: 0 4px 18px rgba(0, 0, 0, 0.7);
 }
-
 .buttons {
-  margin-top: 2.25rem;
   display: flex;
-  gap: 1rem;
+  gap: 1.2rem;
+  margin-top: 2.8rem;
   flex-wrap: wrap;
 }
 
 .primaryBtn,
 .secondaryBtn {
+  min-width: 180px;
+  min-height: 52px;
+  padding: 0.85rem 1.6rem;
+
+  border-radius: 14px;
+
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  padding: 0.95rem 1.5rem;
-  border-radius: 999px;
-  font-weight: 700;
+  gap: 0.75rem;
+
   text-decoration: none;
+  font-size: 0.85rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  font-weight: 700;
+
   transition: 0.25s ease;
+
+  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.05);
 }
 
 .primaryBtn {
-  background-color: #b89563;
-  color: #1f1710;
-}
-
-.primaryBtn:hover {
-  transform: translateY(-2px);
-  background-color: #ceb081;
+  background: #c6ad73;
+  color: #1b130d;
+  border: 1px solid #c6ad73;
 }
 
 .secondaryBtn {
-  border: 1px solid #e6d3b3;
   color: #fffaf2;
+  border: 1px solid #c6ad73;
+  background: rgba(15, 11, 8, 0.18);
+}
+
+.primaryBtn:hover,
+.secondaryBtn:hover {
+  transform: translateY(-2px);
 }
 
 .secondaryBtn:hover {
-  background-color: rgba(255, 255, 255, 0.12);
+  background: rgba(198, 173, 115, 0.12);
 }
 
-@media (max-width: 900px) {
+@media (max-width: 980px) {
   .heroContainer {
     width: 100%;
-    max-width: none;
-    min-height: 100%;
-    padding: 5rem 1.25rem 6.5rem;
+    padding: 5rem 1.25rem 7.5rem;
+    text-align: center;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    text-align: center;
     align-items: center;
   }
 
-  .kicker {
-    font-size: 0.75rem;
-    margin-bottom: 0.85rem;
-  }
-
   .title {
-    max-width: 720px;
-    font-size: clamp(2.25rem, 8vw, 3.75rem);
+    font-size: clamp(2.5rem, 9vw, 4.5rem);
+    max-width: 760px;
   }
 
   .subtitle {
-    max-width: 560px;
-    font-size: 1rem;
-    line-height: 1.45;
-  }
-
-  .buttons {
-    justify-content: center;
-    margin-top: 1.75rem;
+    max-width: 600px;
   }
 }
 
-@media (max-width: 520px) {
-  .heroContainer {
-    padding: 4rem 1rem 7.5rem;
+@media (max-width: 560px) {
+  .brandRow span {
+    width: 30px;
+  }
+
+  .brandRow p {
+    font-size: 0.7rem;
+    letter-spacing: 0.24em;
+  }
+
+  .treeMark {
+    font-size: 1.8rem;
   }
 
   .title {
-    font-size: clamp(2rem, 11vw, 2.85rem);
-  }
-
-  .subtitle {
-    font-size: 0.95rem;
+    font-size: clamp(2.35rem, 11vw, 3.25rem);
   }
 
   .buttons {
     width: 100%;
-    gap: 0.75rem;
   }
 
   .primaryBtn,
