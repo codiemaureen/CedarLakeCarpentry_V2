@@ -1,14 +1,10 @@
 import style from "../component/Service.module.css";
 
-const Service = ({ service }) => {
+const Service = ({ service, onClick }) => {
   return (
-    <article className={style.card}>
+    <article className={style.card} onClick={onClick}>
       <div className={style.imageWrapper}>
-        <img
-          src={service.image}
-          alt={service.title}
-          className={style.image}
-        />
+        <img src={service.image} alt={service.title} className={style.image} />
 
         <div className={style.overlay} />
 
@@ -20,10 +16,6 @@ const Service = ({ service }) => {
 
       <div className={style.cardBody}>
         <p className={style.text}>{service.description}</p>
-          
-        {/* <a href="#gallery" className={style.link}>
-          View real projects →
-        </a> */}
       </div>
     </article>
   );
