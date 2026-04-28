@@ -1,18 +1,25 @@
 {
   "services": [
     {
-      "id": 1,
-      "title": "Custom Cabinetry & Cabinet Installation",
-      "eyebrow": "Precise installation",
-      "description": "Cabinetry and built-ins installed with tight reveals, clean alignment, and consistent job-site execution.",
-      "image": "/cabinet.jpg"
+      "id": 6,
+      "title": "Interior & Exterior Doors",
+      "eyebrow": "Precision fit. Clean finish.",
+      "description": "Expert installation of interior and exterior doors with precise alignment, smooth operation, and flawless finish. From standard installs to custom door packages, we ensure every detail meets the expectations of high-end home builders.",
+      "image": "/doors.jpg"
     },
     {
-      "id": 2,
+      "id": 1,
       "title": "Coffered Ceilings",
       "eyebrow": "Architectural detail",
       "description": "Custom ceiling systems that add depth, structure, and a refined high-end finish to living spaces.",
       "image": "cofferedCeilings.jpg"
+    },
+    {
+      "id": 2,
+      "title": "Custom Cabinetry & Cabinet Installation",
+      "eyebrow": "Precise installation",
+      "description": "Cabinetry and built-ins installed with tight reveals, clean alignment, and consistent job-site execution.",
+      "image": "/cabinet.jpg"
     },
     {
       "id": 3,
