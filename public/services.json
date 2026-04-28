@@ -1,34 +1,39 @@
 {
- "services": [
-  {
-   "id": 1,
-   "title":"Custom Cabinetry & Cabinet Installation",
-   "description": "Transform your space with expertly crafted custom cabinetry and precise cabinet installation. Whether it’s a kitchen, bathroom, or custom-built solution, we design and install cabinets that elevate luxury homes with timeless craftsmanship and functionality.",
-   "imgUrl": "/cabinet.jpg"
-  },
-  {
-   "id": 2,
-   "title": "Coffered Ceilings",
-   "description": "Add depth, elegance, and architectural distinction to your home with handcrafted coffered ceilings. Our detailed designs and flawless execution bring an unmatched sense of grandeur and refinement to any room.",
-   "imgUrl": "cofferedCeilings.jpg"
-  },
-  {
-   "id": 3,
-   "title": "Fireplace Mantels",
-   "description": "A custom fireplace mantle serves as the centerpiece of any elegant living space. We design and install mantels that combine traditional craftsmanship with modern luxury, creating a striking and sophisticated focal point.",
-   "imgUrl": "fireplace.jpg"
-  },
-  {
-   "id": 4,
-   "title": "Trim Installation & Base Molding",
-   "description": "Perfectly installed trim and base molding add the finishing touches that define a luxury home. Our team ensures clean lines and seamless finishes, enhancing the architectural beauty of each room with precision and care.",
-   "imgUrl": "/trim.jpg"
-  },
-  {
-   "id": 5,
-   "title": "Staircase Railings",
-   "description": "Our custom staircase railings are built to be both stunning and structurally sound. Whether sleek and modern or ornate and classic, we create railings that elevate your staircase into a statement of luxury and design excellence.",
-   "imgUrl": "/stairway.jpg"
-  }
- ]
+  "services": [
+    {
+      "id": 1,
+      "title": "Custom Cabinetry & Cabinet Installation",
+      "eyebrow": "Precise installation",
+      "description": "Cabinetry and built-ins installed with tight reveals, clean alignment, and consistent job-site execution.",
+      "image": "/cabinet.jpg"
+    },
+    {
+      "id": 2,
+      "title": "Coffered Ceilings",
+      "eyebrow": "Architectural detail",
+      "description": "Custom ceiling systems that add depth, structure, and a refined high-end finish to living spaces.",
+      "image": "cofferedCeilings.jpg"
+    },
+    {
+      "id": 3,
+      "title": "Fireplace Mantels & Feature Walls",
+      "eyebrow": "Statement focal points",
+      "description": "Mantels and feature walls designed to anchor rooms and elevate the overall feel of the home.",
+      "image": "fireplace.jpg"
+    },
+    {
+      "id": 4,
+      "title": "Trim Installation & Base Molding",
+      "eyebrow": "Clean trim packages",
+      "description": "Consistent trim work across full homes, delivering sharp lines and a finished look builders expect.",
+      "image": "/trim.jpg"
+    },
+    {
+      "id": 5,
+      "title": "Staircase Railings",
+      "eyebrow": "Structure meets polish",
+      "description": "Railings and stair finishes that complete transition spaces with craftsmanship and precision.",
+      "image": "/stairway.jpg"
+    }
+  ]
 }
