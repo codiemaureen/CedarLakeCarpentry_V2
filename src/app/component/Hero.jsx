@@ -6,12 +6,11 @@ const Hero = () => {
       <p className={styles.kicker}>Cedar Lake Carpentry</p>
 
       <h1 className={styles.title}>
-        Luxury Finish Carpentry, Built to Impress
+        High-End Finish Carpentry for Metro Detroit Builders & Luxury Homes
       </h1>
 
       <p className={styles.subtitle}>
-        Custom trim, detailed millwork, and refined interior finishes
-        across Metro Detroit.
+        Custom trim, detailed millwork, cabinet installation, mantels, and refined interior finishes built with precision.
       </p>
 
       <div className={styles.buttons}>

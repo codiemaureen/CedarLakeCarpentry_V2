@@ -1,12 +1,9 @@
 .navOuter {
-  position: relative;
-  top: 0;
-  left: 0;
   width: 100%;
   z-index: 5000;
-  background: rgba(255, 235, 210, 0.18);
-  backdrop-filter: blur(6px);
-  border-bottom: 1px solid rgba(255, 235, 210, 0.18);
+  background: rgba(32, 24, 17, 0.72);
+  backdrop-filter: blur(8px);
+  border-top: 1px solid rgba(255, 235, 210, 0.18);
 }
 
 .NavBar {
@@ -21,7 +18,6 @@
 
 .NavBar li {
   position: relative;
-  min-width: 140px;
   text-align: center;
 }
 
@@ -29,10 +25,10 @@
   display: block;
   padding: 1rem 2rem;
   text-decoration: none;
-  color: #c6c1ba;
-  font-size: 0.95rem;
-  font-weight: 500;
-  letter-spacing: 0.06em;
+  color: #e8dcc8;
+  font-size: 0.9rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
   text-transform: uppercase;
   transition: background-color 0.2s ease, color 0.2s ease;
 }
@@ -40,25 +36,16 @@
 .NavBar li:not(:last-child)::after {
   content: "";
   position: absolute;
-  top: 20%;
+  top: 25%;
   right: 0;
   width: 1px;
-  height: 60%;
-  background-color: #bfb6a5;
+  height: 50%;
+  background-color: rgba(232, 220, 200, 0.35);
 }
 
 .NavBar li a:hover {
-  background-color: #cec5b4;
-  color: #3b2f1e;
-}
-
-@media (max-width: 900px) {
-  .navBar {
-    font-size: 0.85rem;
-    gap: 0.5rem;
-    padding: 0.75rem 0.5rem;
-    flex-wrap: wrap;
-  }
+  background-color: #b89563;
+  color: #1f1710;
 }
 
 @media (max-width: 768px) {
@@ -67,12 +54,12 @@
   }
 
   .NavBar li {
-    min-width: auto;
+    flex: 1 1 50%;
   }
 
   .NavBar li a {
-    padding: 0.85rem 1.25rem;
-    font-size: 0.85rem;
+    padding: 0.85rem 0.5rem;
+    font-size: 0.78rem;
   }
 
   .NavBar li:not(:last-child)::after {
