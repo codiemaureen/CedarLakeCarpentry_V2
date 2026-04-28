@@ -63,8 +63,76 @@ a {
   text-decoration: none;
 }
 
+.dialogContent {
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  z-index: 1001;
+
+  width: min(92vw, 1000px);
+  max-height: 92vh;
+
+  transform: translate(-50%, -50%);
+  overflow: hidden;
+
+  border-radius: clamp(12px, 2vw, 18px);
+  background: #111;
+  border: 1px solid rgba(198, 173, 115, 0.35);
+  box-shadow: 0 30px 90px rgba(0, 0, 0, 0.55);
+
+  display: flex;
+  flex-direction: column;
+}
+
+.dialogContent img {
+  width: 100%;
+  height: auto;
+  max-height: 70vh;
+  object-fit: cover;
+  display: block;
+}
+
+.dialogClose {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+
+  display: grid;
+  place-items: center;
+
+  width: 44px;
+  height: 44px;
+
+  border-radius: 999px;
+
+  background: rgba(17, 17, 17, 0.65);
+  backdrop-filter: blur(6px);
+
+  border: 1px solid rgba(198, 173, 115, 0.25);
+
+  color: #f5ead6;
+  cursor: pointer;
+
+  transition: all 0.25s ease;
+}
+
+.dialogClose:hover {
+  background: rgba(198, 173, 115, 0.15);
+  border-color: rgba(198, 173, 115, 0.5);
+  transform: scale(1.05);
+}
+
 @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;
+  }
+}
+
+@media (max-width: 640px) {
+  .dialogContent {
+    width: 100vw;
+    height: 100vh;
+    max-height: 100vh;
+    border-radius: 0;
   }
 }
