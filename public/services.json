@@ -8,9 +8,9 @@
   },
   {
    "id": 2,
-   "title": "Trim Installation & Base Molding",
-   "description": "Perfectly installed trim and base molding add the finishing touches that define a luxury home. Our team ensures clean lines and seamless finishes, enhancing the architectural beauty of each room with precision and care.",
-   "imgUrl": "/trim.jpg"
+   "title": "Coffered Ceilings",
+   "description": "Add depth, elegance, and architectural distinction to your home with handcrafted coffered ceilings. Our detailed designs and flawless execution bring an unmatched sense of grandeur and refinement to any room.",
+   "imgUrl": "cofferedCeilings.jpg"
   },
   {
    "id": 3,
@@ -20,9 +20,9 @@
   },
   {
    "id": 4,
-   "title": "Coffered Ceilings",
-   "description": "Add depth, elegance, and architectural distinction to your home with handcrafted coffered ceilings. Our detailed designs and flawless execution bring an unmatched sense of grandeur and refinement to any room.",
-   "imgUrl": "cofferedCeilings.jpg"
+   "title": "Trim Installation & Base Molding",
+   "description": "Perfectly installed trim and base molding add the finishing touches that define a luxury home. Our team ensures clean lines and seamless finishes, enhancing the architectural beauty of each room with precision and care.",
+   "imgUrl": "/trim.jpg"
   },
   {
    "id": 5,
