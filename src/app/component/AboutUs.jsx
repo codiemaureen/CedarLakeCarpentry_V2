@@ -4,7 +4,7 @@ import { Check, Users, Hammer } from "lucide-react";
 
 export default function AboutSection() {
   return (
-    <section className={styles.aboutSection}>
+    <section className={styles.aboutSection} id="aboutUsContainer">
       <div className={styles.inner}>
         <div className={styles.header}>
           <div className={styles.divider}>
