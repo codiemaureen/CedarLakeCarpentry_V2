@@ -1,52 +1,248 @@
-.aboutUsContainer{
+.aboutSection {
+ background: linear-gradient(180deg, #fbf7ef 0%, #f3eadc 100%);
+ padding: 5rem 1.5rem;
+ color: #1f1710;
+}
+
+.inner {
+ max-width: 1200px;
+ margin: 0 auto;
+}
+
+.header {
+ text-align: center;
+ max-width: 900px;
+ margin: 0 auto 3.5rem;
+}
+
+.divider {
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ gap: 1rem;
+ margin-bottom: 1rem;
+ color: #b89563;
+}
+
+.divider span:not(.tree) {
+ width: 170px;
+ height: 1px;
+ background: #b89563;
+ opacity: 0.8;
+}
+
+.tree {
+  width: 32px;
+   height: 32px;
+   color: #b89563;
+   stroke: #b89563;
+   fill: #b89563;
+}
+
+.header h2 {
+ font-family: Georgia, "Times New Roman", serif;
+ font-size: clamp(2.5rem, 5vw, 4.5rem);
+ text-transform: uppercase;
+ letter-spacing: 0.04em;
+ margin-bottom: 1.5rem;
+}
+
+.header p {
+ font-size: clamp(1.1rem, 2vw, 1.4rem);
+ line-height: 1.6;
+ color: #33261c;
+}
+
+.contentGrid {
+ display: grid;
+ grid-template-columns: 1.05fr 0.95fr;
+ gap: 4rem;
+ align-items: center;
+}
+
+.infoList {
  display: flex;
  flex-direction: column;
- justify-content: space-evenly;
- min-height: 70vh;
- text-align: center;
- color: rgb(24, 3, 3);
- background-color: white;
- font-size: 2vw;
 }
 
-.aboutHeader{
- margin: 3.5rem;
- color: rgb(24, 3, 3);
+.infoItem {
+ display: grid;
+ grid-template-columns: 90px 1fr;
+ gap: 1.5rem;
+ padding: 1.75rem 0;
+ border-bottom: 1px solid rgba(184, 149, 99, 0.35);
 }
-.aboutDesc {
- font-size: 3vh;
- align-self: center;
- max-width: 80%;
- min-height: 30vh;  padding-bottom: 2vh;
+
+.infoItem:last-child {
+ border-bottom: none;
 }
-.ctaGroup {
+
+
+.infoItem h3 {
+ font-family: Georgia, "Times New Roman", serif;
+ font-size: 1.35rem;
+ text-transform: uppercase;
+ margin-bottom: 0.5rem;
+}
+
+.infoItem p {
+ font-size: 1.05rem;
+ line-height: 1.65;
+ color: #3b2d22;
+}
+
+.icon {
+ width: 72px;
+ height: 72px;
+ border-radius: 50%;
+ background: #fffaf2;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ box-shadow: 0 12px 30px rgba(31, 23, 16, 0.12);
+}
+
+.iconSvg {
+ width: 34px;
+ height: 34px;
+ color: #b89563;
+ stroke: #b89563;
+}
+
+.imageWrap {
+ position: relative;
+ min-height: 420px;
+ border-radius: 2.5rem;
+ overflow: hidden;
+ box-shadow: 0 20px 45px rgba(31, 23, 16, 0.2);
+}
+
+.aboutImage {
+ object-fit: cover;
+}
+
+.ctaBar {
+ margin-top: 3.5rem;
+ background:
+  url("/wood-texture.png");
+ background-size: cover;
+ background-position: center;
+ border-radius: 1.5rem;
+ padding: 2rem;
+ display: grid;
+ grid-template-columns: auto 1fr auto;
+ align-items: center;
+ gap: 2rem;
+ color: #fff8ec;
+ box-shadow: 0 18px 40px rgba(31, 23, 16, 0.22);
+}
+
+.ctaIcon {
+ font-size: 2.5rem;
+ color: #b89563;
+ padding-right: 2rem;
+ border-right: 1px solid rgba(255, 248, 236, 0.35);
+}
+
+.ctaText h3 {
+ font-family: Georgia, "Times New Roman", serif;
+ font-size: 1.25rem;
+ text-transform: uppercase;
+ margin-bottom: 0.5rem;
+ color: #f3eadc;
+}
+
+.ctaText p {
+ line-height: 1.6;
+ color: #f3eadc;
+}
+
+.ctaButtons {
  display: flex;
  gap: 1rem;
- margin: 2rem;
- flex-wrap: wrap;
+}
+
+.primaryBtn,
+.secondaryBtn {
+ display: inline-flex;
+ align-items: center;
  justify-content: center;
+ min-width: 150px;
+ padding: 0.9rem 1.4rem;
+ border-radius: 999px;
+ font-weight: 800;
+ text-transform: uppercase;
+ text-decoration: none;
+ transition: 0.25s ease;
 }
 
-.ctaBtnPrimary {
- background-color: #b89563;
+.primaryBtn {
+ background: #b89563;
  color: #1f1710;
- padding: 0.9rem 1.8rem;
- border-radius: 999px;
- font-weight: 700;
- text-decoration: none;
 }
 
-.ctaBtnSecondary {
+.secondaryBtn {
  border: 2px solid #b89563;
- color: #b89563;
- padding: 0.9rem 1.8rem;
- border-radius: 999px;
- font-weight: 700;
- text-decoration: none;
+ color: #f7ead2;
 }
 
-@media screen and (max-width: 980px){
- .aboutUsContainer{
-  font-size: 5vw;
+.primaryBtn:hover,
+.secondaryBtn:hover {
+ transform: translateY(-2px);
+}
+
+@media (max-width: 900px) {
+ .contentGrid {
+  grid-template-columns: 1fr;
+  gap: 2.5rem;
+ }
+
+ .imageWrap {
+  min-height: 340px;
+ }
+
+ .ctaBar {
+  grid-template-columns: 1fr;
+  text-align: center;
+ }
+
+ .ctaIcon {
+  border-right: none;
+  border-bottom: 1px solid rgba(255, 248, 236, 0.35);
+  padding-right: 0;
+  padding-bottom: 1rem;
+ }
+
+ .ctaButtons {
+  justify-content: center;
+  flex-wrap: wrap;
+ }
+}
+
+@media (max-width: 600px) {
+ .aboutSection {
+  padding: 3.5rem 1rem;
+ }
+
+ .divider span:not(.tree) {
+  width: 80px;
+ }
+
+ .infoItem {
+  grid-template-columns: 1fr;
+  text-align: center;
+ }
+
+ .icon {
+  margin: 0 auto;
+ }
+
+ .ctaButtons {
+  flex-direction: column;
+ }
+
+ .primaryBtn,
+ .secondaryBtn {
+  width: 100%;
  }
 }
