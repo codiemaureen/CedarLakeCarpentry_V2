@@ -7,7 +7,7 @@ const Header = () => {
   return (
     <header className={styles.headerContainer}>
       <Image
-        src="/header2.png"
+        src="/header.png"
         alt="Cedar Lake Carpentry forest hammer hero"
         fill
         priority
