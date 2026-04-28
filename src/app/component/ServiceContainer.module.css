@@ -1,11 +1,11 @@
 .serviceContainer{
- display: flex;
- flex-direction: column;
- align-items: center;
- width: 100vw;
- font-size: 2rem;
- margin-bottom: 5vh;
- color: wheat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100vw;
+  font-size: 2rem;
+  margin-bottom: 5vh;
+  color: wheat;
 }
 
 .serviceWrapper{
