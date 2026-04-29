@@ -53,7 +53,7 @@
   font-weight: 700;
   letter-spacing: 0.08em;
   text-transform: uppercase;
-  color: #5f5548;
+  color: #6b5d4c;
 }
 
 .form input,
@@ -95,12 +95,14 @@
   text-transform: none;
   background: linear-gradient(135deg,
         #bfa166 0%,
-        #a9894f 100%);
+        #a9894f 60%,
+        #c9b074 100%);
   color: #1a120c;
   padding: 1.2rem 1.4rem;
   box-shadow:
       0 8px 18px rgba(0, 0, 0, 0.18),
-      inset 0 1px 0 rgba(255, 255, 255, 0.25);
+      inset 0 1px 0 rgba(255, 255, 255, 0.25),
+      0 0 0 1px rgba(255, 255, 255, 0.15);
   transition: all 0.25s ease;
 }
 
