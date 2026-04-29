@@ -48,7 +48,7 @@ const ServiceContainer = () => {
         </div>
 
         <a href="#contactus" className={style.cta}>
-          Request a Bid
+          Request a Bid <span>→</span>
         </a>
       </div>
 
