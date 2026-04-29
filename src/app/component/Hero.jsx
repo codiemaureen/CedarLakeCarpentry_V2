@@ -25,9 +25,11 @@ const Hero = () => {
 
         <div className={styles.shortLine} />
       </div>
-      <p className={styles.kicker}>LUXURY FINISH CARPENTRY</p>
+
       <h1 className={styles.title}>
-        Precision Finish Carpentry for Luxury Home Builders
+        Precision Finish<br />
+        Carpentry for Luxury Home<br/> 
+        Builders
       </h1>
 
       <p className={styles.subtitle}>
@@ -37,13 +39,18 @@ const Hero = () => {
 
       <div className={styles.buttons}>
         <a href="#contactus" className={styles.primaryBtn}>
-          Work With Us <span>→</span>
+          Request A Bid <span>→</span>
         </a>
 
         <a href="#services" className={styles.secondaryBtn}>
           View Services
         </a>
       </div>
+      <div className={styles.proof}>
+        <span>120+ Years Combined Experience</span>
+        <span>Trusted by Metro Detroit Builders</span>
+      </div>
+
     </section>
   );
 };
