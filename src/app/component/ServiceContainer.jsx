@@ -40,7 +40,7 @@ const ServiceContainer = () => {
     <section id="services" className={style.serviceContainer}>
       <div className={style.header}>
         <div>
-          <p className={style.kicker}>Real Project Work</p>
+          <p className={style.kicker}>Craftsmanship in Every Detail</p>
           <h2 className={style.title}>Services backed by real craftsmanship.</h2>
           <p className={style.servicesDesc}>
             Every service we offer is supported by real project work. What you see here is the standard we bring to every build.

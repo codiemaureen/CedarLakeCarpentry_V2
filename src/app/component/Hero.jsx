@@ -28,8 +28,7 @@ const Hero = () => {
 
       <h1 className={styles.title}>
         Precision Finish<br />
-        Carpentry for Luxury Home<br/> 
-        Builders
+        Carpentry for Luxury Builders
       </h1>
 
       <p className={styles.subtitle}>
