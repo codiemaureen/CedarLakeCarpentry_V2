@@ -22,7 +22,7 @@ export default function AboutSection() {
           <h2>About Cedar Lake Carpentry</h2>
 
           <p>
-            Cedar Lake Finish Carpentry partners with builders across Metro
+            Cedar Lake Carpentry partners with builders across Metro
             Detroit to deliver high-quality residential finish work—on schedule,
             on spec, and without the headaches.
           </p>
