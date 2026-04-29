@@ -5,32 +5,30 @@
   overflow: hidden;
   display: flex;
   align-items: center;
+  padding-top: 4rem;
 }
 
 .headerImg {
   object-fit: cover;
   object-position: center center;
   z-index: 0;
+  filter: brightness(0.9) contrast(1.08);
 }
 
 .overlay {
   position: absolute;
   inset: 0;
   z-index: 1;
-  background:
-    linear-gradient(to right,
-      rgba(15, 11, 8, 0.92) 0%,
-      rgba(15, 11, 8, 0.78) 28%,
-      rgba(15, 11, 8, 0.35) 58%,
-      rgba(15, 11, 8, 0.12) 100%),
-    linear-gradient(to bottom,
-      rgba(15, 11, 8, 0.15),
-      rgba(15, 11, 8, 0.55));
-}
+  background: linear-gradient(90deg,
+        rgba(14, 10, 7, 0.98) 0%,
+        rgba(14, 10, 7, 0.92) 45%,
+        rgba(14, 10, 7, 0.55) 70%,
+        transparent 100%);
+  }
 
 .navWrapper {
   position: absolute;
-  bottom: 0;
+  top: 0;
   left: 0;
   right: 0;
   z-index: 4;
@@ -44,9 +42,10 @@
 
 @media (max-width: 768px) {
   .headerContainer {
-    min-height: 720px;
-    align-items: flex-start;
-  }
+      min-height: 720px;
+      align-items: flex-start;
+      padding-top: 5rem;
+    }
 
   .headerImg {
     object-position: 83% center;
